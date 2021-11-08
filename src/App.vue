@@ -16,7 +16,10 @@ export default {
 
 <style>
 body{
-  background: url('../src/assets/sda.png') no-repeat center center fixed;
+
+  background-repeat: no-repeat;
   background-size: cover;
+  background: linear-gradient(rgb(255, 255, 255), rgb(207, 202, 205)),
+  linear-gradient(white, white);
 }
 </style>
