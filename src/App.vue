@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style>
-body{
+html{
 
   background-repeat: no-repeat;
   background-size: cover;

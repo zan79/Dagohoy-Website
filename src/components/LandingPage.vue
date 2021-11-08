@@ -1,6 +1,6 @@
 <template>
   <div class="container xxl">
-    <div class="row mt-5">
+    <div class="row">
       <div class="col-md-7 text-center">
         <img class="title-img-1" src="../assets/TitleArt.png" alt="titles" />
 
@@ -55,19 +55,31 @@
         </div>
         </div>
 
-        <p>
-          <b>Francisco Dagohoy</b> led the longest revolt against the Spaniards in
-          Philippine history. The revolt took the Spaniards 85 years (1744-1829)
-          to quell. Forced labor was one of the causes of the revolt. But what
-          triggered the decision to rise up in arms against the Spanish
-          authorities in Bohol was the refusal of a Jesuit priest to give a
-          Christian burial to Dagohoy's brother.
-        </p>
+        <table class="table table-sm table-bordered mx-auto mt-3">
+        <tbody class="text-center">
+          <tr>
+            <td class="text-end fw-bold">Status</td>
+            <td class="text-start"><span href="#">Prototype</span></td>
+          </tr>
+          <tr>
+            <td class="text-end fw-bold">Platforms</td>
+            <td class="text-start"><span>Android, Windows</span></td>
+          </tr>
+          <tr>
+            <td class="text-end fw-bold">Genre</td>
+            <td class="text-start"><span>Educational, Adventure, RPG</span></td>
+          </tr>
+          <tr>
+            <td class="text-end fw-bold">Tags</td>
+            <td class="text-start"><span>3D, Single Player</span></td>
+          </tr>
+        </tbody>
+        </table>
       </div>
     </div>
   </div>
-  <footer>
-    <p class="text-center text-muted">Alrights reserve @2021 </p>
+  <footer class="mt-auto ">
+    <p class="text-center text-white">All rights reserve	&copy;2021</p>
   </footer>
 </template>
 <script>
@@ -76,6 +88,14 @@ export default {
 };
 </script>
 <style scoped>
+
+table{
+  width: 20rem;
+}
+
+*{
+  font-family: sans-serif, 'Times New Roman', Times, serif;
+}
 .iframe-container {
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
   overflow: hidden;
@@ -103,9 +123,6 @@ export default {
   width: 30px;
   height: 2rem;
 }
-.buttons-up{
-  font-family:Arial;
-}
 button {
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
   width: 16rem;
@@ -127,14 +144,13 @@ p {
   text-align: justify;
   text-justify: inter-word;
   text-indent: 50px;
-  font-family: Garamond;
-  margin-top: 3%;
+
 }
 footer{
   height: 2rem;
-  margin-top: 2rem;
-  background-color: #948f8f;
+  background-color: #000000;
 }
+
 
 @media screen and (max-width: 900px) {
   .title-img-1 {
