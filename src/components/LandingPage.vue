@@ -33,68 +33,100 @@
         />
 
         <div class="buttons-up">
-           <div>
-          <button type="button" class="btn btn-outline-success btn-sm form-control my-1"> 
-            Download on PlayStore <img src="../assets/android.png" alt="logo-here" class="dl-logo"/>
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-outline-success btn-sm form-control my-1">
-            Download For Android <img src="../assets/android.png" alt="logo-here" class="dl-logo"/>
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-outline-success btn-sm form-control my-1">
-            Download For Windows <img src="../assets/windows.png" alt="logo-here" class="dl-logo"/>
-          </button>
-        </div>
-        <div>
-          <button type="button" class="btn btn-outline-success btn-sm form-control my-1">
-            Download For Linux <img src="../assets/linux.png" alt="logo-here" class="dl-logo"/>
-          </button>
-        </div>
+          <div>
+            <button
+              type="button"
+              class="btn btn-outline-success btn-sm form-control my-1"
+            >
+              Download on PlayStore
+              <img
+                src="../assets/android.png"
+                alt="logo-here"
+                class="dl-logo"
+              />
+            </button>
+          </div>
+          <div>
+            <button
+              type="button"
+              class="btn btn-outline-success btn-sm form-control my-1"
+            >
+              Download For Android
+              <img
+                src="../assets/android.png"
+                alt="logo-here"
+                class="dl-logo"
+              />
+            </button>
+          </div>
+          <div>
+            <button
+              type="button"
+              class="btn btn-outline-success btn-sm form-control my-1"
+            >
+              Download For Windows
+              <img
+                src="../assets/windows.png"
+                alt="logo-here"
+                class="dl-logo"
+              />
+            </button>
+          </div>
+          <div>
+            <button
+              type="button"
+              class="btn btn-outline-success btn-sm form-control my-1"
+            >
+              Download For Linux
+              <img src="../assets/linux.png" alt="logo-here" class="dl-logo" />
+            </button>
+          </div>
         </div>
 
         <table class="table table-sm table-bordered mx-auto mt-3">
-        <tbody class="text-center">
-          <tr>
-            <td class="text-end fw-bold">Status</td>
-            <td class="text-start"><span href="#">Prototype</span></td>
-          </tr>
-          <tr>
-            <td class="text-end fw-bold">Platforms</td>
-            <td class="text-start"><span>Android, Windows</span></td>
-          </tr>
-          <tr>
-            <td class="text-end fw-bold">Genre</td>
-            <td class="text-start"><span>Educational, Adventure, RPG</span></td>
-          </tr>
-          <tr>
-            <td class="text-end fw-bold">Tags</td>
-            <td class="text-start"><span>3D, Single Player</span></td>
-          </tr>
-        </tbody>
+          <tbody class="text-center">
+            <tr>
+              <td class="text-end fw-bold">Status</td>
+              <td class="text-start"><span href="#">Prototype</span></td>
+            </tr>
+            <tr>
+              <td class="text-end fw-bold">Platforms</td>
+              <td class="text-start"><span>Android, Windows</span></td>
+            </tr>
+            <tr>
+              <td class="text-end fw-bold">Genre</td>
+              <td class="text-start">
+                <span>Educational, Adventure, RPG</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="text-end fw-bold">Tags</td>
+              <td class="text-start"><span>3D, Single Player</span></td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </div>
   </div>
-  <footer class="mt-auto ">
-    <p class="text-center text-white">All rights reserve	&copy;2021</p>
+  <footer class="page-footer font-small mt-4">
+    <div class="footer-copyright text-center py-1 text-light">
+      All rights reserve &copy; 2021
+    </div>
   </footer>
 </template>
 <script>
+
 export default {
   data() {},
 };
 </script>
 <style scoped>
-
-table{
+table {
   width: 20rem;
 }
 
-*{
-  font-family: sans-serif, 'Times New Roman', Times, serif;
+* {
+  font-family: sans-serif, "Times New Roman", Times, serif;
 }
 .iframe-container {
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
@@ -128,7 +160,6 @@ button {
   width: 16rem;
   font-size: 1rem;
   border-radius: 10px;
-  
 }
 .screenshots {
   height: 110px;
@@ -144,18 +175,19 @@ p {
   text-align: justify;
   text-justify: inter-word;
   text-indent: 50px;
-
 }
-footer{
+/* footer {
   height: 2rem;
   background-color: #000000;
+} */
+footer {
+  background-color: #000;
 }
-
 
 @media screen and (max-width: 900px) {
   .title-img-1 {
     width: 18rem;
-	margin-top: -50px;
+    margin-top: -50px;
   }
   .title-img-2 {
     width: 0px;
@@ -177,8 +209,8 @@ footer{
     transition: all 0.3s ease-out;
   }
   .dl-logo {
-  width: 30px;
-  height: 2rem;
-}
+    width: 30px;
+    height: 2rem;
+  }
 }
 </style>
