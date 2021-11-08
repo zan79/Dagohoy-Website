@@ -14,13 +14,13 @@
 
         <div class="row mt-3">
           <div class="col">
-            <img class="screenshots" src="../assets/ones.jpg" alt="" />
+            <img class="screenshots" src="@/assets/ss1.png" alt="" />
           </div>
           <div class="col">
-            <img class="screenshots" src="../assets/ones.jpg" alt="" />
+            <img class="screenshots" src="@/assets/ss1.png" alt="" />
           </div>
           <div class="col">
-            <img class="screenshots" src="../assets/ones.jpg" alt="" />
+            <img class="screenshots" src="@/assets/ss1.png" alt="" />
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@
           <div>
             <button
               type="button"
-              class="btn btn-outline-success btn-sm form-control my-1"
+              class="btn btn-success btn-sm form-control my-1"
             >
               Download on PlayStore
               <img
@@ -49,7 +49,7 @@
           <div>
             <button
               type="button"
-              class="btn btn-outline-success btn-sm form-control my-1"
+              class="btn btn-success btn-sm form-control my-1"
             >
               Download For Android
               <img
@@ -62,7 +62,7 @@
           <div>
             <button
               type="button"
-              class="btn btn-outline-success btn-sm form-control my-1"
+              class="btn btn-success btn-sm form-control my-1"
             >
               Download For Windows
               <img
@@ -75,7 +75,7 @@
           <div>
             <button
               type="button"
-              class="btn btn-outline-success btn-sm form-control my-1"
+              class="btn btn-success btn-sm form-control my-1"
             >
               Download For Linux
               <img src="../assets/linux.png" alt="logo-here" class="dl-logo" />
