@@ -1,6 +1,6 @@
 <template>
   <div class="container xxl">
-    <div class="row">
+    <div class="row mt-2">
       <div class="col-md-7 text-center">
         <img class="title-img-1" src="../assets/TitleArt.png" alt="titles" />
 
@@ -17,10 +17,10 @@
             <img class="screenshots" src="@/assets/ss1.png" alt="" />
           </div>
           <div class="col">
-            <img class="screenshots" src="@/assets/ss1.png" alt="" />
+            <img class="screenshots" src="@/assets/ss2.png" alt="" />
           </div>
           <div class="col">
-            <img class="screenshots" src="@/assets/ss1.png" alt="" />
+            <img class="screenshots" src="@/assets/ss3.png" alt="" />
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@
         />
 
         <div class="buttons-up">
-          <div>
+          <!-- <div>
             <button
               type="button"
               class="btn btn-success btn-sm form-control my-1"
@@ -45,11 +45,13 @@
                 class="dl-logo"
               />
             </button>
-          </div>
+          </div> -->
           <div>
-            <button
-              type="button"
-              class="btn btn-success btn-sm form-control my-1"
+            <!-- href="https://drive.google.com/uc?export=download&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME" -->
+            <a
+              class="btn btn-outline-success btn-sm form-control my-1"
+              href="https://drive.google.com/u/0/uc?export=download&confirm=WyKC&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME"
+
             >
               Download For Android
               <img
@@ -57,12 +59,14 @@
                 alt="logo-here"
                 class="dl-logo"
               />
-            </button>
+            </a>
           </div>
           <div>
-            <button
-              type="button"
-              class="btn btn-success btn-sm form-control my-1"
+            <!-- href="https://drive.google.com/uc?export=download&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh" -->
+            <a
+              class="btn btn-outline-success btn-sm form-control my-1"
+              href="https://drive.google.com/u/0/uc?export=download&confirm=J-Ue&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh"
+
             >
               Download For Windows
               <img
@@ -70,9 +74,9 @@
                 alt="logo-here"
                 class="dl-logo"
               />
-            </button>
+            </a>
           </div>
-          <div>
+          <!-- <div>
             <button
               type="button"
               class="btn btn-success btn-sm form-control my-1"
@@ -80,7 +84,7 @@
               Download For Linux
               <img src="../assets/linux.png" alt="logo-here" class="dl-logo" />
             </button>
-          </div>
+          </div> -->
         </div>
 
         <table class="table table-sm table-bordered mx-auto mt-3">
@@ -108,14 +112,13 @@
       </div>
     </div>
   </div>
-  <footer class="page-footer font-small mt-4">
+  <!-- <footer class="page-footer font-small mt-4">
     <div class="footer-copyright text-center py-1 text-light">
       All rights reserve &copy; 2021
     </div>
-  </footer>
+  </footer> -->
 </template>
 <script>
-
 export default {
   data() {},
 };
@@ -155,8 +158,9 @@ table {
   width: 30px;
   height: 2rem;
 }
-button {
-  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+.btn {
+  /* box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5); */
+  box-shadow: 0px 3px 6px #303436;
   width: 16rem;
   font-size: 1rem;
   border-radius: 10px;
@@ -187,7 +191,6 @@ footer {
 @media screen and (max-width: 900px) {
   .title-img-1 {
     width: 18rem;
-    margin-top: -50px;
   }
   .title-img-2 {
     width: 0px;
