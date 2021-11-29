@@ -51,7 +51,7 @@
             <a
               class="btn btn-outline-success btn-sm form-control my-1"
               href="https://drive.google.com/u/0/uc?export=download&confirm=WyKC&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME"
-
+              target="_blank"
             >
               Download For Android
               <img
@@ -66,7 +66,7 @@
             <a
               class="btn btn-outline-success btn-sm form-control my-1"
               href="https://drive.google.com/u/0/uc?export=download&confirm=J-Ue&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh"
-
+              target="_blank"
             >
               Download For Windows
               <img
