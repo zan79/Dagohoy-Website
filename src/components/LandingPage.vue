@@ -48,11 +48,12 @@
           </div> -->
           <div>
             <!-- href="https://drive.google.com/uc?export=download&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME" -->
-              <!-- href="https://drive.google.com/u/0/uc?export=download&confirm=WyKC&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME" -->
+            <!-- href="https://download940.mediafire.com/cwop3zdh65kg/bim2hzjp374wqqa/Dagohoy%5C%27sRevolt+v0.2.apk" -->
+            <!-- href="https://www.googleapis.com/drive/v3/files/1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME?alt=media&key=AIzaSyD-AkvKHTa2GbknEib4yi3ovIQEokbn3KE" -->
             <a
               class="btn btn-outline-success btn-sm form-control my-1"
-              href="https://download940.mediafire.com/cwop3zdh65kg/bim2hzjp374wqqa/Dagohoy%5C%27sRevolt+v0.2.apk"
-
+              href="https://drive.google.com/u/0/uc?export=download&confirm=WyKC&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME"
+              target="_blank"
             >
               Download For Android
               <img
@@ -64,11 +65,12 @@
           </div>
           <div>
             <!-- href="https://drive.google.com/uc?export=download&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh" -->
-              <!-- href="https://drive.google.com/u/0/uc?export=download&confirm=J-Ue&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh" -->
+            <!-- href="https://download1084.mediafire.com/kamt65brhisg/arqpwey7m4252q7/Dagohoy%5C%27sRevoltSetup+v0.2.exe" -->
+            <!-- href="https://www.googleapis.com/drive/v3/files/1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh?alt=media&key=AIzaSyD-AkvKHTa2GbknEib4yi3ovIQEokbn3KE" -->
             <a
               class="btn btn-outline-success btn-sm form-control my-1"
-              href="https://download1084.mediafire.com/kamt65brhisg/arqpwey7m4252q7/Dagohoy%5C%27sRevoltSetup+v0.2.exe"
-
+              href="https://drive.google.com/u/0/uc?export=download&confirm=J-Ue&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh"
+              target="_blank"
             >
               Download For Windows
               <img
