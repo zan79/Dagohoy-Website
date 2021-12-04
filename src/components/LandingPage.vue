@@ -83,24 +83,24 @@
           </div>
         </div>
 
-        <table class="table table-sm table-bordered mx-auto mt-3">
-          <tbody class="text-center">
+        <table class="table table-sm  mx-auto mt-3">
+          <tbody class="text-center text-white">
             <tr>
-              <td class="text-end fw-bold">Status</td>
+              <td class="text-start fw-bold">Status</td>
               <td class="text-start"><span href="#">Prototype</span></td>
             </tr>
             <tr>
-              <td class="text-end fw-bold">Platforms</td>
+              <td class="text-start fw-bold">Platforms</td>
               <td class="text-start"><span>Android, Windows</span></td>
             </tr>
             <tr>
-              <td class="text-end fw-bold">Genre</td>
+              <td class="text-start fw-bold">Genre</td>
               <td class="text-start">
                 <span>Educational, Adventure, RPG</span>
               </td>
             </tr>
             <tr>
-              <td class="text-end fw-bold">Tags</td>
+              <td class="text-start fw-bold">Tags</td>
               <td class="text-start"><span>3D, Single Player</span></td>
             </tr>
           </tbody>
@@ -108,11 +108,19 @@
       </div>
     </div>
   </div>
-  <footer class="page-footer font-small mt-4">
-    <div class="footer-copyright text-center py-1 text-light">
-      All rights reserve &copy; 2021
-    </div>
-  </footer>
+    <div class="footer-dark">
+          <footer>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12  item">
+                        <h3>Game Description</h3>
+                        <p>A game that you can learn about the revolts of dagohoy during his time, its like an mmorpg that make you play as a dagohoy.</p>
+                    </div>
+                      <p class="copyright"><strong>Soncraft © 2021</strong></p>
+                  </div>
+              </div>
+          </footer>
+      </div>
 </template>
 <script>
 
@@ -180,9 +188,15 @@ p {
   height: 2rem;
   background-color: #000000;
 } */
-footer {
-  background-color: #000;
-}
+/*.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(95, 90, 90);
+  color: white;
+  text-align: center;
+}*/
 
 @media screen and (max-width: 900px) {
   .title-img-1 {
@@ -212,5 +226,97 @@ footer {
     width: 30px;
     height: 2rem;
   }
+}
+
+.footer-dark {
+  padding:5px 0;
+  color:#f0f9ff;
+  background: linear-gradient( #ad310c,#240a02);
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  font-weight:bold;
+  font-size:14px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  margin-top: 1rem;
+  margin-left: 30rem;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+  margin-top: 1rem;
+  margin-left: 6.3rem;
+  }
+  .footer-dark .copyright {
+  text-align: center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
 }
 </style>
