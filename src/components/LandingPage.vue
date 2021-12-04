@@ -1,6 +1,6 @@
 <template>
   <div class="container xxl">
-    <div class="row">
+    <div class="row mt-2">
       <div class="col-md-7 text-center">
         <img class="title-img-1" src="../assets/TitleArt.png" alt="titles" />
 
@@ -17,10 +17,10 @@
             <img class="screenshots" src="@/assets/ss1.png" alt="" />
           </div>
           <div class="col">
-            <img class="screenshots" src="@/assets/ss1.png" alt="" />
+            <img class="screenshots" src="@/assets/ss2.png" alt="" />
           </div>
           <div class="col">
-            <img class="screenshots" src="@/assets/ss1.png" alt="" />
+            <img class="screenshots" src="@/assets/ss3.png" alt="" />
           </div>
         </div>
       </div>
@@ -47,9 +47,13 @@
             </button>
           </div>
           <div>
-            <button
-              type="button"
+            <!-- href="https://drive.google.com/uc?export=download&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME" -->
+            <!-- href="https://download940.mediafire.com/cwop3zdh65kg/bim2hzjp374wqqa/Dagohoy%5C%27sRevolt+v0.2.apk" -->
+            <!-- href="https://www.googleapis.com/drive/v3/files/1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME?alt=media&key=AIzaSyD-AkvKHTa2GbknEib4yi3ovIQEokbn3KE" -->
+            <a
               class="btn btn-success btn-sm form-control my-1"
+              href="https://drive.google.com/u/0/uc?export=download&confirm=WyKC&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME"
+              target="_blank"
             >
               Download For Android
               <img
@@ -57,12 +61,16 @@
                 alt="logo-here"
                 class="dl-logo"
               />
-            </button>
+            </a>
           </div>
           <div>
-            <button
-              type="button"
+            <!-- href="https://drive.google.com/uc?export=download&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh" -->
+            <!-- href="https://download1084.mediafire.com/kamt65brhisg/arqpwey7m4252q7/Dagohoy%5C%27sRevoltSetup+v0.2.exe" -->
+            <!-- href="https://www.googleapis.com/drive/v3/files/1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh?alt=media&key=AIzaSyD-AkvKHTa2GbknEib4yi3ovIQEokbn3KE" -->
+            <a
               class="btn btn-success btn-sm form-control my-1"
+              href="https://drive.google.com/u/0/uc?export=download&confirm=J-Ue&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh"
+              target="_blank"
             >
               Download For Windows
               <img
@@ -70,7 +78,7 @@
                 alt="logo-here"
                 class="dl-logo"
               />
-            </button>
+            </a>
           </div>
           <div>
             <button
@@ -80,7 +88,7 @@
               Download For Linux
               <img src="../assets/linux.png" alt="logo-here" class="dl-logo" />
             </button>
-          </div>
+          </div> 
         </div>
 
         <table class="table table-sm  mx-auto mt-3">
@@ -112,7 +120,7 @@
           <footer>
               <div class="container">
                   <div class="row">
-                    <div class="col-sm-12  item">
+                    <div class="col-sm-12  item mt-2">
                         <h3>Game Description</h3>
                         <p>A game that you can learn about the revolts of dagohoy during his time, its like an mmorpg that make you play as a dagohoy.</p>
                     </div>
@@ -123,7 +131,6 @@
       </div>
 </template>
 <script>
-
 export default {
   data() {},
 };
@@ -163,8 +170,9 @@ table {
   width: 30px;
   height: 2rem;
 }
-button {
-  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+.btn {
+  /* box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5); */
+  box-shadow: 0px 3px 6px #303436;
   width: 16rem;
   font-size: 1rem;
   border-radius: 10px;
@@ -201,7 +209,6 @@ p {
 @media screen and (max-width: 900px) {
   .title-img-1 {
     width: 18rem;
-    margin-top: -50px;
   }
   .title-img-2 {
     width: 0px;
