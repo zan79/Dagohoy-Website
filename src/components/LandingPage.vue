@@ -33,7 +33,7 @@
         />
 
         <div class="buttons-up">
-          <div>
+          <!--<div>
             <button
               type="button"
               class="btn btn-success btn-sm form-control my-1"
@@ -45,13 +45,13 @@
                 class="dl-logo"
               />
             </button>
-          </div>
+          </div> -->
           <div>
             <!-- href="https://drive.google.com/uc?export=download&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME" -->
             <!-- href="https://download940.mediafire.com/cwop3zdh65kg/bim2hzjp374wqqa/Dagohoy%5C%27sRevolt+v0.2.apk" -->
             <!-- href="https://www.googleapis.com/drive/v3/files/1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME?alt=media&key=AIzaSyD-AkvKHTa2GbknEib4yi3ovIQEokbn3KE" -->
             <a
-              class="btn btn-success btn-sm form-control my-1"
+              class="btn btn-sm form-control my-1"
               href="https://drive.google.com/u/0/uc?export=download&confirm=WyKC&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME"
               target="_blank"
             >
@@ -68,7 +68,7 @@
             <!-- href="https://download1084.mediafire.com/kamt65brhisg/arqpwey7m4252q7/Dagohoy%5C%27sRevoltSetup+v0.2.exe" -->
             <!-- href="https://www.googleapis.com/drive/v3/files/1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh?alt=media&key=AIzaSyD-AkvKHTa2GbknEib4yi3ovIQEokbn3KE" -->
             <a
-              class="btn btn-success btn-sm form-control my-1"
+              class="btn btn-sm form-control my-1"
               href="https://drive.google.com/u/0/uc?export=download&confirm=J-Ue&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh"
               target="_blank"
             >
@@ -80,7 +80,7 @@
               />
             </a>
           </div>
-          <div>
+         <!--- <div>
             <button
               type="button"
               class="btn btn-success btn-sm form-control my-1"
@@ -88,8 +88,8 @@
               Download For Linux
               <img src="../assets/linux.png" alt="logo-here" class="dl-logo" />
             </button>
-          </div> 
-        </div>
+          </div> --> 
+        </div> 
 
         <table class="table table-sm  mx-auto mt-3">
           <tbody class="text-center text-white">
@@ -118,14 +118,14 @@
   </div>
     <div class="footer-dark">
           <footer>
-              <div class="container">
-                  <div class="row">
-                    <div class="col-sm-12  item mt-2">
-                        <h3>Game Description</h3>
-                        <p>A game that you can learn about the revolts of dagohoy during his time, its like an mmorpg that make you play as a dagohoy.</p>
+              <div>
+                    <div class="item text">
+                        <h3 class="ms-2"><strong>Game Description</strong></h3>
+                        <div class="container-fluid">
+                                                  <p>A game that you can learn about the revolts of dagohoy during his time, its like an mmorpg that make you play as a dagohoy. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vero quasi tempora architecto, eaque fuga commodi eveniet itaque nemo repudiandae, non,
+                           corporis nobis at nisi sed sit illum doloremque sapiente?</p></div><hr>
                     </div>
-                      <p class="copyright"><strong>Soncraft © 2021</strong></p>
-                  </div>
+                      <p class="copyright"><strong>Alright's reserved © 2021</strong></p>
               </div>
           </footer>
       </div>
@@ -169,12 +169,19 @@ table {
 .dl-logo {
   width: 30px;
   height: 2rem;
+  filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%);
+}
+.buttons-up{
+  margin-top: 25px;
+  margin-bottom: 9rem;
 }
 .btn {
   /* box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5); */
   box-shadow: 0px 3px 6px #303436;
+  background: #187401;
+  color: #f0f9ff;
   width: 16rem;
-  font-size: 1rem;
+  font-size: 18px;
   border-radius: 10px;
 }
 .screenshots {
@@ -192,33 +199,12 @@ p {
   text-justify: inter-word;
   text-indent: 50px;
 }
-/* footer {
-  height: 2rem;
-  background-color: #000000;
-} */
-/*.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(95, 90, 90);
-  color: white;
-  text-align: center;
-}*/
-
 @media screen and (max-width: 900px) {
   .title-img-1 {
     width: 18rem;
   }
   .title-img-2 {
     width: 0px;
-  }
-
-  button {
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
-    width: 14rem;
-    font-size: 0.8rem;
-    border-radius: 10px;
   }
 
   .screenshots {
@@ -233,12 +219,19 @@ p {
     width: 30px;
     height: 2rem;
   }
+  
 }
 
+
+
 .footer-dark {
-  padding:5px 0;
+  position:absolute;
+  bottom: 0px;
+  padding-top: 19px;
+  width:100%;
+  height: 150px;
   color:#f0f9ff;
-  background: linear-gradient( #ad310c,#240a02);
+  background: #7e1e04;
 }
 
 .footer-dark h3 {
@@ -266,14 +259,11 @@ p {
 }
 
 @media (max-width:767px) {
-  .footer-dark .item:not(.social) {
-    text-align:center;
-    padding-bottom:20px;
-  }
+
 }
 
 @media (max-width:767px) {
-  .footer-dark .item.text {
+  .footer-dark .item text {
     margin-bottom:0;
   }
 }
@@ -289,16 +279,15 @@ p {
 }
 
 @media (max-width:991px) {
-  .footer-dark .item.social {
-  margin-top: 1rem;
-  margin-left: 6.3rem;
-  }
-  .footer-dark .copyright {
-  text-align: center;
-  padding-top:24px;
-  opacity:0.3;
-  font-size:13px;
-  margin-bottom:0;
+  .footer-dark {
+  position:relative;
+  bottom: 0px;
+  line-height: 15px;
+  padding-top: 19px;
+  width:100%;
+  height: auto;
+  color:#f0f9ff;
+  background: #531503;
 }
 }
 
@@ -322,7 +311,6 @@ p {
 
 .footer-dark .copyright {
   text-align:center;
-  opacity:0.3;
   font-size:13px;
   margin-bottom:0;
 }
