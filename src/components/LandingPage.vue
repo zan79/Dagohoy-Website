@@ -332,15 +332,14 @@ p {
 
 }
 @media (max-width: 1360px) and (min-width: 768px) {
-    .footer-dark {
+.footer-dark {
   position:relative;
   bottom: 0px;
-  line-height: 15px;
   padding-top: 19px;
   width:100%;
-  height: auto;
+  height: 150px;
   color:#f0f9ff;
-  background: #531503;
+  background: #7e1e04;
 }
 .buttons-up{
   margin-top: 5px;
