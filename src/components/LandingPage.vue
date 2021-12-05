@@ -122,7 +122,7 @@
                     <div class="item text">
                         <h3 class="ms-2"><strong>Game Description</strong></h3>
                         <div class="container-fluid">
-                                                  <p>A game that you can learn about the revolts of dagohoy during his time, its like an mmorpg that make you play as a dagohoy. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vero quasi tempora architecto, eaque fuga commodi eveniet itaque nemo repudiandae, non,
+                          <p>A game that you can learn about the revolts of dagohoy during his time, its like an mmorpg that make you play as a dagohoy. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vero quasi tempora architecto, eaque fuga commodi eveniet itaque nemo repudiandae, non,
                            corporis nobis at nisi sed sit illum doloremque sapiente?</p></div><hr>
                     </div>
                       <p class="copyright"><strong>Alright's reserved © 2021</strong></p>
@@ -313,5 +313,39 @@ p {
   text-align:center;
   font-size:13px;
   margin-bottom:0;
+}
+@media (max-width: 1366px) and (min-width: 768px) {
+    .footer-dark {
+  position:relative;
+  bottom: 0px;
+  line-height: 15px;
+  padding-top: 19px;
+  width:100%;
+  height: auto;
+  color:#f0f9ff;
+  background: #531503;
+}
+.buttons-up{
+  margin-top: 5px;
+  margin-bottom: 7rem;
+}
+
+}
+@media (max-width: 1360px) and (min-width: 768px) {
+    .footer-dark {
+  position:relative;
+  bottom: 0px;
+  line-height: 15px;
+  padding-top: 19px;
+  width:100%;
+  height: auto;
+  color:#f0f9ff;
+  background: #531503;
+}
+.buttons-up{
+  margin-top: 5px;
+  margin-bottom: 7rem;
+}
+
 }
 </style>
