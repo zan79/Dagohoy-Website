@@ -124,7 +124,7 @@
                         <div>
                           <p class="text-center container">The game entitle "Dagohoy's Revolt" is a Capstone Project. This game is made to promote and Distribute knowledge about a Boholano hero Francisco Sendrijas also known as "Dagohoy" </p></div><hr>
                     </div>
-                      <p class="copyright"><strong>Alright's reserved © 2021</strong></p>
+                      <p class="copyright"><strong>All rights reserved © 2021</strong></p>
               </div>
           </footer>
       </div>
