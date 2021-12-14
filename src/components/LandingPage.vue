@@ -40,7 +40,7 @@
             <!-- href="https://www.googleapis.com/drive/v3/files/1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME?alt=media&key=AIzaSyD-AkvKHTa2GbknEib4yi3ovIQEokbn3KE" -->
             <a
               class="btn btn-outline-success btn-sm form-control my-1"
-              href="https://download940.mediafire.com/hbdfwg3hdbig/bim2hzjp374wqqa/Dagohoy%5C%27sRevolt+v0.2.apk"
+              href="https://download854.mediafire.com/ieap3aq8ww2g/08f680p7ktag59g/Dagohoy%5C%27sRevolt+v0.2.1.apk"
 
             >
               Download For Android
@@ -58,7 +58,7 @@
             <!-- href="https://www.googleapis.com/drive/v3/files/1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh?alt=media&key=AIzaSyD-AkvKHTa2GbknEib4yi3ovIQEokbn3KE" -->
             <a
               class="btn btn-outline-success btn-sm form-control my-1"
-              href="https://download1084.mediafire.com/gk1jl1fq4oyg/arqpwey7m4252q7/Dagohoy%5C%27sRevoltSetup+v0.2.exe"
+              href="https://download1346.mediafire.com/fxtduwflyqdg/xjaxu5g9ew0g1e1/Dagohoy%5C%27sRevoltSetup+v0.2.1.exe"
 
             >
               Download For Windows
