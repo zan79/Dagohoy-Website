@@ -40,8 +40,8 @@
             <!-- href="https://www.googleapis.com/drive/v3/files/1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME?alt=media&key=AIzaSyD-AkvKHTa2GbknEib4yi3ovIQEokbn3KE" -->
             <a
               class="btn btn-outline-success btn-sm form-control my-1"
-              href="https://download940.mediafire.com/cwop3zdh65kg/bim2hzjp374wqqa/Dagohoy%5C%27sRevolt+v0.2.apk"
-              target="_blank"
+              href="https://download940.mediafire.com/hbdfwg3hdbig/bim2hzjp374wqqa/Dagohoy%5C%27sRevolt+v0.2.apk"
+
             >
               Download For Android
               <img
@@ -58,8 +58,8 @@
             <!-- href="https://www.googleapis.com/drive/v3/files/1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh?alt=media&key=AIzaSyD-AkvKHTa2GbknEib4yi3ovIQEokbn3KE" -->
             <a
               class="btn btn-outline-success btn-sm form-control my-1"
-              href="https://download1084.mediafire.com/kamt65brhisg/arqpwey7m4252q7/Dagohoy%5C%27sRevoltSetup+v0.2.exe"
-              target="_blank"
+              href="https://download1084.mediafire.com/gk1jl1fq4oyg/arqpwey7m4252q7/Dagohoy%5C%27sRevoltSetup+v0.2.exe"
+
             >
               Download For Windows
               <img
@@ -71,24 +71,24 @@
           </div>
         </div>
 
-        <table class="table table-sm table-bordered mx-auto mt-3">
-          <tbody class="text-center">
+        <table class="table table-sm  mx-auto mt-3">
+          <tbody class="text-center text-white">
             <tr>
-              <td class="text-end fw-bold">Status</td>
+              <td class="text-start fw-bold">Status</td>
               <td class="text-start"><span href="#">Prototype</span></td>
             </tr>
             <tr>
-              <td class="text-end fw-bold">Platforms</td>
+              <td class="text-start fw-bold">Platforms</td>
               <td class="text-start"><span>Android, Windows</span></td>
             </tr>
             <tr>
-              <td class="text-end fw-bold">Genre</td>
+              <td class="text-start fw-bold">Genre</td>
               <td class="text-start">
                 <span>Educational, Adventure, RPG</span>
               </td>
             </tr>
             <tr>
-              <td class="text-end fw-bold">Tags</td>
+              <td class="text-start fw-bold">Tags</td>
               <td class="text-start"><span>3D, Single Player</span></td>
             </tr>
           </tbody>
@@ -96,11 +96,18 @@
       </div>
     </div>
   </div>
-  <!-- <footer class="page-footer font-small mt-4">
-    <div class="footer-copyright text-center py-1 text-light">
-      All rights reserve &copy; 2021
-    </div>
-  </footer> -->
+    <div class="footer-dark">
+          <footer>
+              <div>
+                    <div class="item text">
+                        <h3 class="container" style="font-size:15px;"><strong>About</strong></h3>
+                        <div>
+                          <p class="text-center container">The game entitle "Dagohoy's Revolt" is a Capstone Project. This game is made to promote and Distribute knowledge about a Boholano hero Francisco Sendrijas also known as "Dagohoy" </p></div><hr>
+                    </div>
+                      <p class="copyright"><strong>All rights reserved © 2021</strong></p>
+              </div>
+          </footer>
+      </div>
 </template>
 <script>
 export default {
@@ -141,12 +148,19 @@ table {
 .dl-logo {
   width: 30px;
   height: 2rem;
+  filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%);
+}
+.buttons-up{
+  margin-top: 25px;
+  margin-bottom: 9rem;
 }
 .btn {
   /* box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5); */
   box-shadow: 0px 3px 6px #303436;
+  background: #187401;
+  color: #f0f9ff;
   width: 16rem;
-  font-size: 1rem;
+  font-size: 18px;
   border-radius: 10px;
 }
 .screenshots {
@@ -162,29 +176,13 @@ table {
 p {
   text-align: justify;
   text-justify: inter-word;
-  text-indent: 50px;
 }
-/* footer {
-  height: 2rem;
-  background-color: #000000;
-} */
-footer {
-  background-color: #000;
-}
-
 @media screen and (max-width: 900px) {
   .title-img-1 {
     width: 18rem;
   }
   .title-img-2 {
     width: 0px;
-  }
-
-  button {
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
-    width: 14rem;
-    font-size: 0.8rem;
-    border-radius: 10px;
   }
 
   .screenshots {
@@ -199,5 +197,109 @@ footer {
     width: 30px;
     height: 2rem;
   }
+  
 }
+
+
+
+.footer-dark {
+  position:absolute;
+  bottom: 0px;
+  padding-top: 19px;
+  width:100%;
+  height: 150px;
+  color:#f0f9ff;
+  background: #7e1e04;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  font-weight:bold;
+  font-size:14px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+
+@media (max-width:767px) {
+  .footer-dark .item text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+@media (max-width:991px) {
+  .footer-dark {
+  position:relative;
+  bottom: 0px;
+  line-height: 15px;
+  padding-top: 19px;
+  width:100%;
+  height: 200px;
+  color:#f0f9ff;
+  background: #7e1e04;
+}
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  font-size:13px;
+  margin-bottom:0;
+}
+@media (max-width: 1366px) and (min-width: 768px) {
+  .footer-dark {
+  position:relative;
+  bottom: 0px;
+  line-height: 15px;
+  padding-top: 19px;
+  width:100%;
+  height: 132px;
+  color:#f0f9ff;
+  background: #7e1e04;
+}
+.buttons-up{
+  margin-top: 5px;
+  margin-bottom: 7rem;
+}
+
+}
+
 </style>

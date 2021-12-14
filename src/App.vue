@@ -15,11 +15,13 @@ export default {
 </script>
 
 <style>
-html{
-
+body{
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(rgb(255, 255, 255), rgb(207, 202, 205)),
-  linear-gradient(white, white);
+  background-image: url("assets/rect66.png");
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
 }
 </style>
