@@ -18,7 +18,7 @@ export default {
 body{
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("assets/rect66.png");
+  background-image: url("assets/background.png");
   image-rendering: auto;
   image-rendering: crisp-edges;
   image-rendering: pixelated;
