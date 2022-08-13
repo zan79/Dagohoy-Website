@@ -3,13 +3,9 @@
     <div class="row mt-2">
       <div class="col-md-7 text-center">
         <img class="title-img-1" src="../assets/TitleArt.png" alt="titles" />
-            <!-- src="https://www.youtube.com/embed/uly5n5hrwms" -->
+        <!-- src="https://www.youtube.com/embed/uly5n5hrwms" -->
         <div class="iframe-container">
-          <iframe
-            src="https://www.youtube.com/embed/efpjHXmZAOo"
-            title="YouTube video player"
-            allowfullscreen
-          ></iframe>
+          <iframe src="https://www.youtube.com/embed/efpjHXmZAOo" title="YouTube video player" allowfullscreen></iframe>
         </div>
 
         <div class="row mt-3">
@@ -26,47 +22,27 @@
       </div>
 
       <div class="col-md-5 text-center">
-        <img
-          class="title-img-2"
-          src="../assets/TitleArt.png"
-          alt="Dagohoy's Revolt"
-        />
+        <img class="title-img-2" src="../assets/TitleArt.png" alt="Dagohoy's Revolt" />
 
         <div class="buttons-up">
           <div>
-            <!-- href="https://drive.google.com/uc?export=download&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME" -->
             <!-- href="https://drive.google.com/u/0/uc?export=download&confirm=WyKC&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME" -->
             <!-- href="https://download940.mediafire.com/cwop3zdh65kg/bim2hzjp374wqqa/Dagohoy%5C%27sRevolt+v0.2.apk" -->
             <!-- href="https://www.googleapis.com/drive/v3/files/1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME?alt=media&key=AIzaSyD-AkvKHTa2GbknEib4yi3ovIQEokbn3KE" -->
-            <a
-              class="btn btn-outline-success btn-sm form-control my-1"
-              href="https://drive.google.com/uc?export=download&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME"
-
-            >
+            <a class="btn btn-outline-success btn-sm form-control my-1"
+              href="https://drive.google.com/u/0/uc?export=download&confirm=WyKC&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME">
               Download For Android
-              <img
-                src="../assets/android.png"
-                alt="logo-here"
-                class="dl-logo"
-              />
+              <img src="../assets/android.png" alt="logo-here" class="dl-logo" />
             </a>
           </div>
           <div>
-            <!-- href="https://drive.google.com/uc?export=download&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh" -->
             <!-- href="https://drive.google.com/u/0/uc?export=download&confirm=J-Ue&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh" -->
             <!-- href="https://download1084.mediafire.com/kamt65brhisg/arqpwey7m4252q7/Dagohoy%5C%27sRevoltSetup+v0.2.exe" -->
             <!-- href="https://www.googleapis.com/drive/v3/files/1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh?alt=media&key=AIzaSyD-AkvKHTa2GbknEib4yi3ovIQEokbn3KE" -->
-            <a
-              class="btn btn-outline-success btn-sm form-control my-1"
-              href="https://drive.google.com/uc?export=download&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh"
-
-            >
+            <a class="btn btn-outline-success btn-sm form-control my-1"
+              href="https://drive.google.com/u/0/uc?export=download&confirm=J-Ue&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh">
               Download For Windows
-              <img
-                src="../assets/windows.png"
-                alt="logo-here"
-                class="dl-logo"
-              />
+              <img src="../assets/windows.png" alt="logo-here" class="dl-logo" />
             </a>
           </div>
         </div>
@@ -96,22 +72,26 @@
       </div>
     </div>
   </div>
-    <div class="footer-dark">
-          <footer>
-              <div>
-                    <div class="item text">
-                        <h3 class="container" style="font-size:15px;"><strong>About</strong></h3>
-                        <div>
-                          <p class="text-center container">The game entitle "Dagohoy's Revolt" is a Capstone Project. This game is made to promote and Distribute knowledge about a Boholano hero Francisco Sendrijas also known as "Dagohoy" </p></div><hr>
-                    </div>
-                      <p class="copyright"><strong>All rights reserved © 2021</strong></p>
-              </div>
-          </footer>
+  <div class="footer-dark">
+    <footer>
+      <div>
+        <div class="item text">
+          <h3 class="container"><strong>About</strong></h3>
+          <div>
+            <p class="text-center container">The game entitle "Dagohoy's Revolt" is a Capstone Project. This game is
+              made to promote and Distribute knowledge about a Boholano hero Francisco Sendrijas also known as "Dagohoy"
+            </p>
+          </div>
+          <hr>
+        </div>
+        <p class="copyright"><strong>All rights reserved © 2021</strong></p>
       </div>
+    </footer>
+  </div>
 </template>
 <script>
 export default {
-  data() {},
+  data() { },
 };
 </script>
 <style scoped>
@@ -121,7 +101,11 @@ table {
 
 * {
   font-family: sans-serif, "Times New Roman", Times, serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
 .iframe-container {
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
   overflow: hidden;
@@ -137,23 +121,28 @@ table {
   top: 0;
   width: 100%;
 }
+
 .title-img-1 {
   width: 0px;
 }
+
 .title-img-2 {
   width: 25rem;
   margin-top: -2rem;
   margin: -2rem;
 }
+
 .dl-logo {
   width: 30px;
   height: 2rem;
   filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%);
 }
-.buttons-up{
+
+.buttons-up {
   margin-top: 25px;
   margin-bottom: 9rem;
 }
+
 .btn {
   /* box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5); */
   box-shadow: 0px 3px 6px #303436;
@@ -163,6 +152,7 @@ table {
   font-size: 18px;
   border-radius: 10px;
 }
+
 .screenshots {
   height: 110px;
   border-radius: 2px;
@@ -170,17 +160,21 @@ table {
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
+
 .screenshots:hover {
   transform: scale(1.2);
 }
+
 p {
   text-align: justify;
   text-justify: inter-word;
 }
+
 @media screen and (max-width: 900px) {
   .title-img-1 {
     width: 18rem;
   }
+
   .title-img-2 {
     width: 0px;
   }
@@ -193,113 +187,63 @@ p {
     cursor: pointer;
     transition: all 0.3s ease-out;
   }
+
   .dl-logo {
     width: 30px;
     height: 2rem;
   }
-  
+
 }
 
 
 
 .footer-dark {
-  position:absolute;
+  position: absolute;
   bottom: 0px;
-  padding-top: 19px;
-  width:100%;
-  height: 150px;
-  color:#f0f9ff;
-  background: #7e1e04;
+  width: 100%;
+  color: #f0f9ff;
+  background: #241a18;
 }
 
 .footer-dark h3 {
-  margin-top:0;
-  font-weight:bold;
-  font-size:14px;
-}
-
-.footer-dark ul {
-  padding:0;
-  list-style:none;
-  line-height:1.6;
-  font-size:14px;
-  margin-bottom:0;
-}
-
-.footer-dark ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.6;
-}
-
-.footer-dark ul a:hover {
-  opacity:0.8;
-}
-
-
-@media (max-width:767px) {
-  .footer-dark .item text {
-    margin-bottom:0;
-  }
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .footer-dark .item.text p {
-  opacity:0.6;
-  margin-bottom:0;
+  opacity: 0.6;
+  margin-bottom: 0;
+  font-size: 10px;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  font-size: 12px;
 }
 
 @media (max-width:991px) {
   .footer-dark {
-  position:relative;
-  bottom: 0px;
-  line-height: 15px;
-  padding-top: 19px;
-  width:100%;
-  height: 200px;
-  color:#f0f9ff;
-  background: #7e1e04;
-}
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+    color: #f0f9ff;
+  }
 }
 
-.footer-dark .item.social > a {
-  font-size:20px;
-  width:36px;
-  height:36px;
-  line-height:36px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
-  margin:0 8px;
-  color:#fff;
-  opacity:0.75;
-}
-
-.footer-dark .item.social > a:hover {
-  opacity:0.9;
-}
-
-.footer-dark .copyright {
-  text-align:center;
-  font-size:13px;
-  margin-bottom:0;
-}
 @media (max-width: 1366px) and (min-width: 768px) {
   .footer-dark {
-  position:relative;
-  bottom: 0px;
-  line-height: 15px;
-  padding-top: 19px;
-  width:100%;
-  height: 132px;
-  color:#f0f9ff;
-  background: #7e1e04;
-}
-.buttons-up{
-  margin-top: 5px;
-  margin-bottom: 7rem;
-}
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    color: #f0f9ff;
+  }
+
+  .buttons-up {
+    margin-top: 5px;
+    margin-bottom: 7rem;
+  }
 
 }
-
 </style>
